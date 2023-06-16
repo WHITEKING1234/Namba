@@ -10,12 +10,28 @@
 		048D04712A3C7BCD004411B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D04702A3C7BCD004411B3 /* AppDelegate.swift */; };
 		048D04732A3C7BCD004411B3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D04722A3C7BCD004411B3 /* SceneDelegate.swift */; };
 		048D04752A3C7BCD004411B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D04742A3C7BCD004411B3 /* ViewController.swift */; };
-		048D04782A3C7BCD004411B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048D04762A3C7BCD004411B3 /* Main.storyboard */; };
 		048D047A2A3C7BD1004411B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048D04792A3C7BD1004411B3 /* Assets.xcassets */; };
 		048D047D2A3C7BD1004411B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048D047B2A3C7BD1004411B3 /* LaunchScreen.storyboard */; };
 		048D04882A3C7BD2004411B3 /* NambaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D04872A3C7BD2004411B3 /* NambaTests.swift */; };
 		048D04922A3C7BD2004411B3 /* NambaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D04912A3C7BD2004411B3 /* NambaUITests.swift */; };
 		048D04942A3C7BD2004411B3 /* NambaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D04932A3C7BD2004411B3 /* NambaUITestsLaunchTests.swift */; };
+		048D04A22A3C8010004411B3 /* AuthConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D04A12A3C8010004411B3 /* AuthConfiguration.swift */; };
+		048D04A42A3C8058004411B3 /* OIDAuthorizationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D04A32A3C8058004411B3 /* OIDAuthorizationService.swift */; };
+		048D04A62A3C822C004411B3 /* OID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D04A52A3C822C004411B3 /* OID.swift */; };
+		048D04A82A3C82D1004411B3 /* token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D04A72A3C82D1004411B3 /* token.swift */; };
+		048D04AA2A3C8312004411B3 /* UserHepler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D04A92A3C8312004411B3 /* UserHepler.swift */; };
+		048D04AC2A3C83CC004411B3 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D04AB2A3C83CC004411B3 /* MainView.swift */; };
+		048D04AE2A3C8486004411B3 /* SwinmOBGET.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D04AD2A3C8486004411B3 /* SwinmOBGET.swift */; };
+		048D04B02A3C84CB004411B3 /* Mainswiftjob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D04AF2A3C84CB004411B3 /* Mainswiftjob.swift */; };
+		048D04B22A3C84E8004411B3 /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D04B12A3C84E8004411B3 /* data.swift */; };
+		048D04B42A3C850A004411B3 /* dataVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D04B32A3C850A004411B3 /* dataVC.swift */; };
+		048D04B62A3C8529004411B3 /* dataresposnse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D04B52A3C8529004411B3 /* dataresposnse.swift */; };
+		048D04B82A3C8558004411B3 /* datarouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D04B72A3C8558004411B3 /* datarouter.swift */; };
+		048D04BA2A3C857E004411B3 /* githubrouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D04B92A3C857E004411B3 /* githubrouter.swift */; };
+		048D04BC2A3C85BA004411B3 /* error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D04BB2A3C85BA004411B3 /* error.swift */; };
+		3F158552926961F3A692697F /* Pods_Namba_NambaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE308BC7BC258D4AE5D2B54E /* Pods_Namba_NambaUITests.framework */; };
+		AF9CC684F6610ADD57DD0570 /* Pods_NambaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 388AC98CCAFC0BF4FC2681A3 /* Pods_NambaTests.framework */; };
+		BD4B9BFE7BDDE12B73A08D93 /* Pods_Namba.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C28898E700C09DF79ED7995 /* Pods_Namba.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +56,6 @@
 		048D04702A3C7BCD004411B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		048D04722A3C7BCD004411B3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		048D04742A3C7BCD004411B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		048D04772A3C7BCD004411B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		048D04792A3C7BD1004411B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		048D047C2A3C7BD1004411B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		048D047E2A3C7BD1004411B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +64,29 @@
 		048D048D2A3C7BD2004411B3 /* NambaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NambaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		048D04912A3C7BD2004411B3 /* NambaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NambaUITests.swift; sourceTree = "<group>"; };
 		048D04932A3C7BD2004411B3 /* NambaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NambaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		048D04A12A3C8010004411B3 /* AuthConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthConfiguration.swift; sourceTree = "<group>"; };
+		048D04A32A3C8058004411B3 /* OIDAuthorizationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OIDAuthorizationService.swift; sourceTree = "<group>"; };
+		048D04A52A3C822C004411B3 /* OID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OID.swift; sourceTree = "<group>"; };
+		048D04A72A3C82D1004411B3 /* token.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = token.swift; sourceTree = "<group>"; };
+		048D04A92A3C8312004411B3 /* UserHepler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserHepler.swift; sourceTree = "<group>"; };
+		048D04AB2A3C83CC004411B3 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		048D04AD2A3C8486004411B3 /* SwinmOBGET.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwinmOBGET.swift; sourceTree = "<group>"; };
+		048D04AF2A3C84CB004411B3 /* Mainswiftjob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mainswiftjob.swift; sourceTree = "<group>"; };
+		048D04B12A3C84E8004411B3 /* data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
+		048D04B32A3C850A004411B3 /* dataVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataVC.swift; sourceTree = "<group>"; };
+		048D04B52A3C8529004411B3 /* dataresposnse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataresposnse.swift; sourceTree = "<group>"; };
+		048D04B72A3C8558004411B3 /* datarouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = datarouter.swift; sourceTree = "<group>"; };
+		048D04B92A3C857E004411B3 /* githubrouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = githubrouter.swift; sourceTree = "<group>"; };
+		048D04BB2A3C85BA004411B3 /* error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = error.swift; sourceTree = "<group>"; };
+		1C28898E700C09DF79ED7995 /* Pods_Namba.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Namba.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		217390004FD1E9A8F5ED1963 /* Pods-Namba-NambaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Namba-NambaUITests.release.xcconfig"; path = "Target Support Files/Pods-Namba-NambaUITests/Pods-Namba-NambaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		28B878171D9F48415E6DD464 /* Pods-Namba.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Namba.debug.xcconfig"; path = "Target Support Files/Pods-Namba/Pods-Namba.debug.xcconfig"; sourceTree = "<group>"; };
+		2FA04ECE190C5B185D9E5A31 /* Pods-NambaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NambaTests.debug.xcconfig"; path = "Target Support Files/Pods-NambaTests/Pods-NambaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		375C0528484C39C01BC63EF2 /* Pods-Namba.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Namba.release.xcconfig"; path = "Target Support Files/Pods-Namba/Pods-Namba.release.xcconfig"; sourceTree = "<group>"; };
+		388AC98CCAFC0BF4FC2681A3 /* Pods_NambaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NambaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABEA871C3ABA72806CE821AC /* Pods-NambaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NambaTests.release.xcconfig"; path = "Target Support Files/Pods-NambaTests/Pods-NambaTests.release.xcconfig"; sourceTree = "<group>"; };
+		D050FEB633E1E39C63AF15D3 /* Pods-Namba-NambaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Namba-NambaUITests.debug.xcconfig"; path = "Target Support Files/Pods-Namba-NambaUITests/Pods-Namba-NambaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DE308BC7BC258D4AE5D2B54E /* Pods_Namba_NambaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Namba_NambaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD4B9BFE7BDDE12B73A08D93 /* Pods_Namba.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF9CC684F6610ADD57DD0570 /* Pods_NambaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +110,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F158552926961F3A692697F /* Pods_Namba_NambaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		019F7F9EF6150199E7E79532 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C28898E700C09DF79ED7995 /* Pods_Namba.framework */,
+				DE308BC7BC258D4AE5D2B54E /* Pods_Namba_NambaUITests.framework */,
+				388AC98CCAFC0BF4FC2681A3 /* Pods_NambaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		048D04642A3C7BCD004411B3 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +134,8 @@
 				048D04862A3C7BD2004411B3 /* NambaTests */,
 				048D04902A3C7BD2004411B3 /* NambaUITests */,
 				048D046E2A3C7BCD004411B3 /* Products */,
+				D18E76C40CBFA8C6D346F6B4 /* Pods */,
+				019F7F9EF6150199E7E79532 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +152,24 @@
 		048D046F2A3C7BCD004411B3 /* Namba */ = {
 			isa = PBXGroup;
 			children = (
+				048D04A02A3C7FFE004411B3 /* module */,
 				048D04702A3C7BCD004411B3 /* AppDelegate.swift */,
 				048D04722A3C7BCD004411B3 /* SceneDelegate.swift */,
 				048D04742A3C7BCD004411B3 /* ViewController.swift */,
-				048D04762A3C7BCD004411B3 /* Main.storyboard */,
 				048D04792A3C7BD1004411B3 /* Assets.xcassets */,
 				048D047B2A3C7BD1004411B3 /* LaunchScreen.storyboard */,
 				048D047E2A3C7BD1004411B3 /* Info.plist */,
+				048D04A32A3C8058004411B3 /* OIDAuthorizationService.swift */,
+				048D04A52A3C822C004411B3 /* OID.swift */,
+				048D04A92A3C8312004411B3 /* UserHepler.swift */,
+				048D04AD2A3C8486004411B3 /* SwinmOBGET.swift */,
+				048D04AF2A3C84CB004411B3 /* Mainswiftjob.swift */,
+				048D04B12A3C84E8004411B3 /* data.swift */,
+				048D04B32A3C850A004411B3 /* dataVC.swift */,
+				048D04B52A3C8529004411B3 /* dataresposnse.swift */,
+				048D04B72A3C8558004411B3 /* datarouter.swift */,
+				048D04B92A3C857E004411B3 /* githubrouter.swift */,
+				048D04BB2A3C85BA004411B3 /* error.swift */,
 			);
 			path = Namba;
 			sourceTree = "<group>";
@@ -127,6 +191,29 @@
 			path = NambaUITests;
 			sourceTree = "<group>";
 		};
+		048D04A02A3C7FFE004411B3 /* module */ = {
+			isa = PBXGroup;
+			children = (
+				048D04A12A3C8010004411B3 /* AuthConfiguration.swift */,
+				048D04A72A3C82D1004411B3 /* token.swift */,
+				048D04AB2A3C83CC004411B3 /* MainView.swift */,
+			);
+			path = module;
+			sourceTree = "<group>";
+		};
+		D18E76C40CBFA8C6D346F6B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				28B878171D9F48415E6DD464 /* Pods-Namba.debug.xcconfig */,
+				375C0528484C39C01BC63EF2 /* Pods-Namba.release.xcconfig */,
+				D050FEB633E1E39C63AF15D3 /* Pods-Namba-NambaUITests.debug.xcconfig */,
+				217390004FD1E9A8F5ED1963 /* Pods-Namba-NambaUITests.release.xcconfig */,
+				2FA04ECE190C5B185D9E5A31 /* Pods-NambaTests.debug.xcconfig */,
+				ABEA871C3ABA72806CE821AC /* Pods-NambaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +221,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 048D04972A3C7BD2004411B3 /* Build configuration list for PBXNativeTarget "Namba" */;
 			buildPhases = (
+				A292ACAE1427CAE203EEAC77 /* [CP] Check Pods Manifest.lock */,
 				048D04692A3C7BCD004411B3 /* Sources */,
 				048D046A2A3C7BCD004411B3 /* Frameworks */,
 				048D046B2A3C7BCD004411B3 /* Resources */,
+				052F8FDA8746CDB111D3BAD1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +240,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 048D049A2A3C7BD2004411B3 /* Build configuration list for PBXNativeTarget "NambaTests" */;
 			buildPhases = (
+				88A4941A6C9B5023418A3E5D /* [CP] Check Pods Manifest.lock */,
 				048D047F2A3C7BD2004411B3 /* Sources */,
 				048D04802A3C7BD2004411B3 /* Frameworks */,
 				048D04812A3C7BD2004411B3 /* Resources */,
@@ -169,9 +259,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 048D049D2A3C7BD2004411B3 /* Build configuration list for PBXNativeTarget "NambaUITests" */;
 			buildPhases = (
+				FA8CBFBD1201D73ACBE0FB4E /* [CP] Check Pods Manifest.lock */,
 				048D04892A3C7BD2004411B3 /* Sources */,
 				048D048A2A3C7BD2004411B3 /* Frameworks */,
 				048D048B2A3C7BD2004411B3 /* Resources */,
+				B355EF0790E1E669DECA5EF5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,7 +325,6 @@
 			files = (
 				048D047D2A3C7BD1004411B3 /* LaunchScreen.storyboard in Resources */,
 				048D047A2A3C7BD1004411B3 /* Assets.xcassets in Resources */,
-				048D04782A3C7BCD004411B3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,13 +344,130 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		052F8FDA8746CDB111D3BAD1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Namba/Pods-Namba-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Namba/Pods-Namba-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Namba/Pods-Namba-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88A4941A6C9B5023418A3E5D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NambaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A292ACAE1427CAE203EEAC77 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Namba-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B355EF0790E1E669DECA5EF5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Namba-NambaUITests/Pods-Namba-NambaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Namba-NambaUITests/Pods-Namba-NambaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Namba-NambaUITests/Pods-Namba-NambaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA8CBFBD1201D73ACBE0FB4E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Namba-NambaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		048D04692A3C7BCD004411B3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				048D04A62A3C822C004411B3 /* OID.swift in Sources */,
+				048D04BA2A3C857E004411B3 /* githubrouter.swift in Sources */,
+				048D04AC2A3C83CC004411B3 /* MainView.swift in Sources */,
+				048D04A22A3C8010004411B3 /* AuthConfiguration.swift in Sources */,
+				048D04B82A3C8558004411B3 /* datarouter.swift in Sources */,
+				048D04AA2A3C8312004411B3 /* UserHepler.swift in Sources */,
+				048D04B62A3C8529004411B3 /* dataresposnse.swift in Sources */,
+				048D04AE2A3C8486004411B3 /* SwinmOBGET.swift in Sources */,
+				048D04A42A3C8058004411B3 /* OIDAuthorizationService.swift in Sources */,
+				048D04B42A3C850A004411B3 /* dataVC.swift in Sources */,
 				048D04752A3C7BCD004411B3 /* ViewController.swift in Sources */,
+				048D04B22A3C84E8004411B3 /* data.swift in Sources */,
+				048D04B02A3C84CB004411B3 /* Mainswiftjob.swift in Sources */,
+				048D04A82A3C82D1004411B3 /* token.swift in Sources */,
 				048D04712A3C7BCD004411B3 /* AppDelegate.swift in Sources */,
+				048D04BC2A3C85BA004411B3 /* error.swift in Sources */,
 				048D04732A3C7BCD004411B3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,14 +505,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		048D04762A3C7BCD004411B3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				048D04772A3C7BCD004411B3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		048D047B2A3C7BD1004411B3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -432,6 +632,7 @@
 		};
 		048D04982A3C7BD2004411B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28B878171D9F48415E6DD464 /* Pods-Namba.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -442,9 +643,9 @@
 				INFOPLIST_FILE = Namba/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,6 +661,7 @@
 		};
 		048D04992A3C7BD2004411B3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 375C0528484C39C01BC63EF2 /* Pods-Namba.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -470,9 +672,9 @@
 				INFOPLIST_FILE = Namba/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -488,6 +690,7 @@
 		};
 		048D049B2A3C7BD2004411B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FA04ECE190C5B185D9E5A31 /* Pods-NambaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +711,7 @@
 		};
 		048D049C2A3C7BD2004411B3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABEA871C3ABA72806CE821AC /* Pods-NambaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +732,7 @@
 		};
 		048D049E2A3C7BD2004411B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D050FEB633E1E39C63AF15D3 /* Pods-Namba-NambaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +751,7 @@
 		};
 		048D049F2A3C7BD2004411B3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 217390004FD1E9A8F5ED1963 /* Pods-Namba-NambaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
