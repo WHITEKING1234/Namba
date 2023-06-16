@@ -8,10 +8,10 @@
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>CFBundleURLName</key>
-			<string>ru.kts.oauth</string>
+			<string>GithubClient</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>ru.kts.oauth</string>
+				<string>GithubClient</string>
 			</array>
 		</dict>
 	</array>

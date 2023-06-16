@@ -21,13 +21,13 @@
 		048D04A82A3C82D1004411B3 /* token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D04A72A3C82D1004411B3 /* token.swift */; };
 		048D04AA2A3C8312004411B3 /* UserHepler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D04A92A3C8312004411B3 /* UserHepler.swift */; };
 		048D04AC2A3C83CC004411B3 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D04AB2A3C83CC004411B3 /* MainView.swift */; };
-		048D04AE2A3C8486004411B3 /* SwinmOBGET.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D04AD2A3C8486004411B3 /* SwinmOBGET.swift */; };
-		048D04B02A3C84CB004411B3 /* Mainswiftjob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D04AF2A3C84CB004411B3 /* Mainswiftjob.swift */; };
-		048D04B22A3C84E8004411B3 /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D04B12A3C84E8004411B3 /* data.swift */; };
+		048D04AE2A3C8486004411B3 /* SwinjectManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D04AD2A3C8486004411B3 /* SwinjectManager.swift */; };
+		048D04B02A3C84CB004411B3 /* MainAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D04AF2A3C84CB004411B3 /* MainAssembly.swift */; };
+		048D04B22A3C84E8004411B3 /* DataAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D04B12A3C84E8004411B3 /* DataAssembly.swift */; };
 		048D04B42A3C850A004411B3 /* dataVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D04B32A3C850A004411B3 /* dataVC.swift */; };
-		048D04B62A3C8529004411B3 /* dataresposnse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D04B52A3C8529004411B3 /* dataresposnse.swift */; };
-		048D04B82A3C8558004411B3 /* datarouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D04B72A3C8558004411B3 /* datarouter.swift */; };
-		048D04BA2A3C857E004411B3 /* githubrouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D04B92A3C857E004411B3 /* githubrouter.swift */; };
+		048D04B62A3C8529004411B3 /* DataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D04B52A3C8529004411B3 /* DataRepository.swift */; };
+		048D04B82A3C8558004411B3 /* DataRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D04B72A3C8558004411B3 /* DataRouter.swift */; };
+		048D04BA2A3C857E004411B3 /* GithubRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D04B92A3C857E004411B3 /* GithubRouterProtocol.swift */; };
 		048D04BC2A3C85BA004411B3 /* error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D04BB2A3C85BA004411B3 /* error.swift */; };
 		3F158552926961F3A692697F /* Pods_Namba_NambaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE308BC7BC258D4AE5D2B54E /* Pods_Namba_NambaUITests.framework */; };
 		AF9CC684F6610ADD57DD0570 /* Pods_NambaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 388AC98CCAFC0BF4FC2681A3 /* Pods_NambaTests.framework */; };
@@ -70,13 +70,13 @@
 		048D04A72A3C82D1004411B3 /* token.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = token.swift; sourceTree = "<group>"; };
 		048D04A92A3C8312004411B3 /* UserHepler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserHepler.swift; sourceTree = "<group>"; };
 		048D04AB2A3C83CC004411B3 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
-		048D04AD2A3C8486004411B3 /* SwinmOBGET.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwinmOBGET.swift; sourceTree = "<group>"; };
-		048D04AF2A3C84CB004411B3 /* Mainswiftjob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mainswiftjob.swift; sourceTree = "<group>"; };
-		048D04B12A3C84E8004411B3 /* data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
+		048D04AD2A3C8486004411B3 /* SwinjectManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwinjectManager.swift; sourceTree = "<group>"; };
+		048D04AF2A3C84CB004411B3 /* MainAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAssembly.swift; sourceTree = "<group>"; };
+		048D04B12A3C84E8004411B3 /* DataAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAssembly.swift; sourceTree = "<group>"; };
 		048D04B32A3C850A004411B3 /* dataVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataVC.swift; sourceTree = "<group>"; };
-		048D04B52A3C8529004411B3 /* dataresposnse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataresposnse.swift; sourceTree = "<group>"; };
-		048D04B72A3C8558004411B3 /* datarouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = datarouter.swift; sourceTree = "<group>"; };
-		048D04B92A3C857E004411B3 /* githubrouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = githubrouter.swift; sourceTree = "<group>"; };
+		048D04B52A3C8529004411B3 /* DataRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRepository.swift; sourceTree = "<group>"; };
+		048D04B72A3C8558004411B3 /* DataRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRouter.swift; sourceTree = "<group>"; };
+		048D04B92A3C857E004411B3 /* GithubRouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubRouterProtocol.swift; sourceTree = "<group>"; };
 		048D04BB2A3C85BA004411B3 /* error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = error.swift; sourceTree = "<group>"; };
 		1C28898E700C09DF79ED7995 /* Pods_Namba.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Namba.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		217390004FD1E9A8F5ED1963 /* Pods-Namba-NambaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Namba-NambaUITests.release.xcconfig"; path = "Target Support Files/Pods-Namba-NambaUITests/Pods-Namba-NambaUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -152,23 +152,19 @@
 		048D046F2A3C7BCD004411B3 /* Namba */ = {
 			isa = PBXGroup;
 			children = (
+				048D04C02A3D0DB5004411B3 /* Router */,
+				048D04BF2A3D0D97004411B3 /* DataRepository */,
+				048D04BE2A3D0D4F004411B3 /* UIViewController */,
+				048D04BD2A3D0D08004411B3 /* DI */,
 				048D04A02A3C7FFE004411B3 /* module */,
 				048D04702A3C7BCD004411B3 /* AppDelegate.swift */,
 				048D04722A3C7BCD004411B3 /* SceneDelegate.swift */,
-				048D04742A3C7BCD004411B3 /* ViewController.swift */,
 				048D04792A3C7BD1004411B3 /* Assets.xcassets */,
 				048D047B2A3C7BD1004411B3 /* LaunchScreen.storyboard */,
 				048D047E2A3C7BD1004411B3 /* Info.plist */,
 				048D04A32A3C8058004411B3 /* OIDAuthorizationService.swift */,
 				048D04A52A3C822C004411B3 /* OID.swift */,
 				048D04A92A3C8312004411B3 /* UserHepler.swift */,
-				048D04AD2A3C8486004411B3 /* SwinmOBGET.swift */,
-				048D04AF2A3C84CB004411B3 /* Mainswiftjob.swift */,
-				048D04B12A3C84E8004411B3 /* data.swift */,
-				048D04B32A3C850A004411B3 /* dataVC.swift */,
-				048D04B52A3C8529004411B3 /* dataresposnse.swift */,
-				048D04B72A3C8558004411B3 /* datarouter.swift */,
-				048D04B92A3C857E004411B3 /* githubrouter.swift */,
 				048D04BB2A3C85BA004411B3 /* error.swift */,
 			);
 			path = Namba;
@@ -194,11 +190,47 @@
 		048D04A02A3C7FFE004411B3 /* module */ = {
 			isa = PBXGroup;
 			children = (
-				048D04A12A3C8010004411B3 /* AuthConfiguration.swift */,
 				048D04A72A3C82D1004411B3 /* token.swift */,
-				048D04AB2A3C83CC004411B3 /* MainView.swift */,
 			);
 			path = module;
+			sourceTree = "<group>";
+		};
+		048D04BD2A3D0D08004411B3 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				048D04AD2A3C8486004411B3 /* SwinjectManager.swift */,
+				048D04AF2A3C84CB004411B3 /* MainAssembly.swift */,
+				048D04B12A3C84E8004411B3 /* DataAssembly.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		048D04BE2A3D0D4F004411B3 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				048D04B32A3C850A004411B3 /* dataVC.swift */,
+				048D04742A3C7BCD004411B3 /* ViewController.swift */,
+				048D04AB2A3C83CC004411B3 /* MainView.swift */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		048D04BF2A3D0D97004411B3 /* DataRepository */ = {
+			isa = PBXGroup;
+			children = (
+				048D04A12A3C8010004411B3 /* AuthConfiguration.swift */,
+				048D04B52A3C8529004411B3 /* DataRepository.swift */,
+			);
+			path = DataRepository;
+			sourceTree = "<group>";
+		};
+		048D04C02A3D0DB5004411B3 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				048D04B92A3C857E004411B3 /* GithubRouterProtocol.swift */,
+				048D04B72A3C8558004411B3 /* DataRouter.swift */,
+			);
+			path = Router;
 			sourceTree = "<group>";
 		};
 		D18E76C40CBFA8C6D346F6B4 /* Pods */ = {
@@ -453,18 +485,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				048D04A62A3C822C004411B3 /* OID.swift in Sources */,
-				048D04BA2A3C857E004411B3 /* githubrouter.swift in Sources */,
+				048D04BA2A3C857E004411B3 /* GithubRouterProtocol.swift in Sources */,
 				048D04AC2A3C83CC004411B3 /* MainView.swift in Sources */,
 				048D04A22A3C8010004411B3 /* AuthConfiguration.swift in Sources */,
-				048D04B82A3C8558004411B3 /* datarouter.swift in Sources */,
+				048D04B82A3C8558004411B3 /* DataRouter.swift in Sources */,
 				048D04AA2A3C8312004411B3 /* UserHepler.swift in Sources */,
-				048D04B62A3C8529004411B3 /* dataresposnse.swift in Sources */,
-				048D04AE2A3C8486004411B3 /* SwinmOBGET.swift in Sources */,
+				048D04B62A3C8529004411B3 /* DataRepository.swift in Sources */,
+				048D04AE2A3C8486004411B3 /* SwinjectManager.swift in Sources */,
 				048D04A42A3C8058004411B3 /* OIDAuthorizationService.swift in Sources */,
 				048D04B42A3C850A004411B3 /* dataVC.swift in Sources */,
 				048D04752A3C7BCD004411B3 /* ViewController.swift in Sources */,
-				048D04B22A3C84E8004411B3 /* data.swift in Sources */,
-				048D04B02A3C84CB004411B3 /* Mainswiftjob.swift in Sources */,
+				048D04B22A3C84E8004411B3 /* DataAssembly.swift in Sources */,
+				048D04B02A3C84CB004411B3 /* MainAssembly.swift in Sources */,
 				048D04A82A3C82D1004411B3 /* token.swift in Sources */,
 				048D04712A3C7BCD004411B3 /* AppDelegate.swift in Sources */,
 				048D04BC2A3C85BA004411B3 /* error.swift in Sources */,
@@ -645,7 +677,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -674,7 +706,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
